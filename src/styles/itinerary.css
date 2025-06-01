@@ -1,0 +1,40 @@
+.itinerary-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.destination-list {
+  list-style: none;
+  padding: 0;
+}
+
+.destination-card {
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.tag.sightseeing {
+  background-color: #007bff;
+}
